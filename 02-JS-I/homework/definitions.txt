@@ -1,0 +1,18 @@
+Variables:
+Las variables son espacios en memoria en donde asignamos un valor para poder utlizarlo cuando deseemos.
+
+Strings: 
+Son cadenas de caracteres, me sirven para guardar frases, palabras, letras, etc
+
+Funciones: 
+Es la manera en la que puedo ahorrar código declarando la lógica una sola vez y pudiendo utlizarla en cualquier momento
+de algún programa en expecifico.
+Return:
+Nos devuleve un valor al momento de utilizar una función.
+
+
+IF:
+Es la manera en que el computador puede tomar decisiones ya sean falsas o verdaderas.
+
+Booleanos:
+Es la manera en como le indicamos al computador que ejecute alguna acción y valide si algo es verdadero o falso.

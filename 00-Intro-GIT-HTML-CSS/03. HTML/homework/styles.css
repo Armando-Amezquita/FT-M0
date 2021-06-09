@@ -1,0 +1,216 @@
+:root {
+    --yellow: #f7fd04;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ---------------The Header begins here-----------  */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 8rem;
+    background-color: #364547/* 0a81ab */;
+}
+header a {
+    text-decoration: none;
+    color: var(--yellow);
+}
+header a:hover {
+    cursor: pointer;
+    color: #be0000;
+    text-decoration: underline;
+}
+header h1 {
+    font-size: 4rem;
+}
+header h3, h4 {
+    font-size: 2rem;
+}
+/* The Main begins here  */
+.main__fisrt-section {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 8rem;
+    font-size: 5rem;
+    line-height: 7.8rem;
+    width: 100%;
+    height: 50rem;
+    color: #f7fd04;
+    background-color: #1b1717;
+}
+.main__second-section {
+    padding: 5rem;
+    margin-bottom: 3rem;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+.main__second-section .main__title{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 6rem;
+    text-decoration: underline;
+}
+.main__second-container {
+    display: flex;
+}
+.main__second-container .second__div-left {
+    width: 50%;
+    height: auto;
+}
+.second__div-left h3 {
+    font-size: 3rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+}
+.second__div-left p {
+    font-size: 2rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+.main__second-container .second__div-right {
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+.second__div-right  {
+    margin: 0 auto;
+    background-image: url("img/pexels-jane-d-1092730.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+}
+/* ----------------thid section------------- */
+.main__third-section {
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 7rem;
+}
+.title__section-third {
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+.article__container {
+    position: relative;
+    width: 30rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #364547;
+    color: white;
+    border-radius: 2rem;
+    box-shadow: 15px 15px 15px #999;
+}
+.article__container .article__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    color: var(--yellow);
+}
+.article__container .article_text {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+.article__container .img {
+    width: 25rem;
+    height: 25rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.article__container .cards__first_image{
+    background-image: url("img/pexels-brett-jordan-825661.jpg");
+}
+.article__container .cards__second_image {
+    background-image: url("img/pexels-jonathan-borba-2983101.jpg");
+}
+.article__container .cards__third_image {
+    background-image: url("img/pexels-malidate-van-842142.jpg");
+}
+.article__div-button {
+    position: absolute;
+    left: calc(50% - 7.5rem);
+}
+.article__div-button button {
+    width: 15rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    background-color: var(--yellow);
+}
+.article__div-button a {
+    color: #000;
+}
+.article__div-button a:hover {
+    cursor: pointer;
+    color: #be0000;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+/* ----------------Quater section------------ */
+.main__quater-section {
+    width: 100%;
+    height: 50rem;
+}
+.main__quater-section p {
+    width: 100%;
+    height: 45rem;
+    background-attachment: fixed;
+    background-image: url("img/pexels-ahmad-syahrir-605408.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* -------------Fifth Section------------------ */
+.main__fifth-section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30rem;
+    margin-top: -5rem;
+    padding: 8rem;
+    background-color: #eeeeee;
+    text-align: center;
+}
+/* ------------------ footer-------------- */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+    background-color: #364547;
+}
+footer p {
+    font-size: 1.5rem;
+}
+.article__fifth-container img {
+    border-radius: 2rem;
+}
